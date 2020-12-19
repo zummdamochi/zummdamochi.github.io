@@ -25,7 +25,7 @@ body{
 
 .select h1{
   margin:0 20px 10px;
-  font-size:36px;
+  font-size:18px;
 }
 
 .select h1 a:hover{
@@ -71,7 +71,7 @@ header{
 .contents h1{
   font-weight: normal;
   width:100%;
-  font-size:25px;
+  font-size:15px;
   margin-right:20px;
   margin-left:20px;
 }
@@ -92,8 +92,6 @@ header{
     margin:300px auto 0;
     font-size: 15px;
     text-align:center;
-    /* padding-bottom:10px; */
-    /* align-items: center; */
     width:100%;
     
   }
@@ -112,24 +110,31 @@ header{
     height:15%
     
   }
-      .diary img:hover{
-        opacity:0.7;
-      }
-      
-      .name{
-        width:100%;
-        margin:0 auto;
-        color:gray;
-        font-size:13px;
-        text-align:center;
-      }
-      
-      footer{
-        margin-top:30px;
-      }
+
+  .diary img:hover{
+    opacity:0.7;
+  }
+  
+  .name{
+    width:100%;
+    margin:0 auto;
+    color:gray;
+    font-size:13px;
+    text-align:center;
+  }
+  
+  footer{
+    margin-top:30px;
+  }
 
 @media(min-width:800px){
-  
+  .select h1{
+    font-size:36px;
+  }
+
+  .contents h1{
+    font-size:25px;
+  }
   
   .select nav{
     display:inline;
