@@ -24,7 +24,7 @@ body{
 }
 
 .select h1{
-  margin:0 20px 10px;
+  margin:0 10px 5px;
   font-size:18px;
 }
 
@@ -128,7 +128,12 @@ header{
   }
 
 @media(min-width:800px){
+  .select{
+    height:65px;
+  }
+
   .select h1{
+    margin:0 20px 10px;
     font-size:36px;
   }
 
